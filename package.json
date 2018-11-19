@@ -1,0 +1,33 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todoListAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BNuri/todoListApi.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API"
+  ],
+  "author": "nuri bae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BNuri/todoListApi/issues"
+  },
+  "homepage": "https://github.com/BNuri/todoListApi#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6",
+    "ws": "3.3.2"
+  }
+}
