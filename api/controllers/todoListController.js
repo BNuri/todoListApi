@@ -48,3 +48,11 @@ exports.delete_a_task = function(req, res){
     res.json({message: 'Task successfully deleted'});
   });
 };
+
+exports.delete_all = function(req, res){
+  Task.remove({},function(err, task){
+    if(err)
+      res.send(err);
+    res.json({message: 'All Task successfully deleted'});
+  });
+};
