@@ -23,6 +23,7 @@
   "homepage": "https://github.com/BNuri/todoListApi#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "event-stream": "^3.3.4",
     "express": "^4.16.4",
     "mongoose": "^5.3.9"
   },
